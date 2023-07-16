@@ -1,0 +1,108 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+}
+
+
+body {
+  /* overflow-y: hidden; Hide vertical scrollbar */
+  overflow-x: hidden; /* Hide horizontal scrollbar */
+}
+
+.nav {
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+    height: 11vh;
+    background-color: #1DA1F2;
+    color: white;
+    align-items: center;
+}
+
+.details{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    background: #cbcbcb;
+    color: #5b5b5b;
+    
+
+}
+
+.details img{
+    border-radius: 60px;
+    width: 115px;
+    margin-top: -70px;
+}
+
+.details p{
+    font-size: 14px;
+    margin-top: 7px;
+    
+}
+
+.details h2{
+    color: black;
+    font-size: 18px;
+}
+
+.tweets{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Two items across the width */
+    grid-template-rows: repeat(3, 1fr); /* Three items going down the height */
+    gap: 10px; 
+    padding: 10px 5px;
+    /* Gap between grid items */
+    /* width: 100vw;
+    height: 60vh;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap; */
+}
+
+.single-tweet {
+    width: 45vw;
+    display: flex;
+    flex-direction: row;
+    width: 30vh;
+}
+
+.single-tweet img{
+    width: 100px;
+    height: 100px;
+    border-radius: 5px;
+}
+
+.others {
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+}
+
+.top{
+    display: flex;
+    flex-direction: row;
+    width: 500px;
+    align-items: center;
+}
+.top img{
+    width: 15px;
+    height: 15px;
+}
+.numbers{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.row{
+    display: flex;
+    flex-direction: row;
+}
+
+.numbers img{
+    width: 15px;
+    height: 15px;
+}
+
