@@ -13,13 +13,19 @@ body {
 .nav {
     display: flex;
     flex-direction: row;
+    /* flex-wrap: nowrap; */
     width: 100vw;
     height: 11vh;
     background-color: #1DA1F2;
     color: white;
     align-items: center;
 }
+select{
 
+    width: 200px;
+    height: 30px;
+    
+}
 .details{
     display: flex;
     flex-direction: column;
@@ -47,7 +53,7 @@ body {
     font-size: 18px;
 }
 
-.tweets{
+.tweetsopjjkxm {
     display: grid;
     grid-template-columns: repeat(2, 1fr); /* Two items across the width */
     grid-template-rows: repeat(3, 1fr); /* Three items going down the height */
@@ -61,11 +67,28 @@ body {
     flex-wrap: wrap; */
 }
 
+.tweets{
+    display:flex;
+    width: 100vw;
+    gap: 30px;
+    margin: 10px;
+}
+
+.tweet-column{
+    width: 45%;
+    margin-right: 30px;
+}
+
+.comment-column{
+    width: 45%;
+}
+
 .single-tweet {
     width: 45vw;
     display: flex;
     flex-direction: row;
     width: 30vh;
+    cursor: pointer;
 }
 
 .single-tweet img{
